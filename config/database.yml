@@ -84,6 +84,4 @@ test:
 #
 production:
   <<: *default
-  database: math_magicians_quotes_api_production
-  username: math_magicians_quotes_api
-  password: <%= ENV["MATH_MAGICIANS_QUOTES_API_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
