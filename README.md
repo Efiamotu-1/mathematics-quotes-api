@@ -163,7 +163,7 @@ I would like to thank Every developer who would be consuming this api for his/he
 
 <!-- FAQ (optional) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
