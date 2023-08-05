@@ -97,7 +97,15 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To test and use this api in your react application, execute the following command
+
+```javascript
+fetch("https://mathematics-quotes-api.onrender.com/api/v1/quotes")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+```
+
+To run the project as a rails app, execute the following command:
 
 - Run `rails db:create` to create a new database.
 - Run `rails db:migrate` to migrate the db and build the schema.
